@@ -123,12 +123,13 @@ public class RegisterPanel extends JPanel {
                     <h3>Registration Rules</h3>
                     <p><b>Username Requirements:</b></p>
                     <ul>
-                        <li>4-20 characters long</li>
+                        <li>Can not be empty</li>
                         <li>Only letters (a-z, A-Z) and numbers (0-9)</li>
                         <li>No spaces or special characters</li>
                     </ul>
                     <p><b>Password Requirements:</b></p>
                     <ul>
+                        <li>Cannot be empty</li>
                         <li>Minimum 8 characters</li>
                         <li>At least one uppercase letter (A-Z)</li>
                         <li>At least one lowercase letter (a-z)</li>
